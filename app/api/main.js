@@ -1,6 +1,9 @@
 var async = require('async');
 var request = require('request');
 
+
+var Order = require('../../models/order');
+
 // GST function
 function GSTCalculation(price) {
   return 0.06 * price;
@@ -48,7 +51,7 @@ module.exports = function(app, express) {
       if (err) return next(err);
       res.json("Successfully ordered");
     });
-    
+
   });
 
 
