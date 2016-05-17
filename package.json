@@ -1,0 +1,21 @@
+{
+  "name": "genie",
+  "version": "1.0.0",
+  "description": "this is a backend of genie",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.4.15",
+    "morgan": "^1.7.0",
+    "request": "^2.72.0"
+  }
+}
