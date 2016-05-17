@@ -39,6 +39,10 @@ module.exports = function(app, express) {
 
   });
 
+  app.get('/order-getting', function(req, res, next) {
+    res.json("Hello World");
+  });
+
   app.post('/order-test', function(req, res, next) {
     var placeName = req.body.placeName;
     var orderName = req.body.orderName;
